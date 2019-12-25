@@ -14,3 +14,9 @@ trim_trailing_whitespace = false
 
 [Makefile]
 indent_style = tab
+
+[*.js]
+quote_type = single
+
+[*.ts]
+quote_type = single

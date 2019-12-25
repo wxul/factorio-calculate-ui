@@ -1,0 +1,459 @@
+[
+  {
+    "name": "Iron_ore",
+    "cname": "铁矿",
+    "type": "Intermediate_products",
+    "subtype": "Resource",
+    "formula": ["Mines_iron_ore"]
+  },
+  {
+    "name": "Copper_ore",
+    "cname": "铜矿",
+    "type": "Intermediate_products",
+    "subtype": "Resource",
+    "formula": ["Mines_copper_ore"]
+  },
+  {
+    "name": "Stone",
+    "cname": "石矿",
+    "type": "Intermediate_products",
+    "subtype": "Resource",
+    "formula": ["Mines_stone"]
+  },
+  {
+    "name": "Coal",
+    "cname": "煤矿",
+    "type": "Intermediate_products",
+    "subtype": "Resource",
+    "formula": ["Mines_coal"]
+  },
+  {
+    "name": "Crude_oil",
+    "cname": "原油",
+    "type": "Intermediate_products",
+    "subtype": "Resource",
+    "formula": ["Pumping_oil"]
+  },
+  {
+    "name": "Water",
+    "cname": "水",
+    "type": "Intermediate_products",
+    "subtype": "Resource",
+    "formula": ["Pumping"]
+  },
+  {
+    "name": "Heavy_oil",
+    "cname": "重油",
+    "type": "Intermediate_products",
+    "subtype": "Fluids",
+    "formula": ["Advanced_oil_processing", "Coal_liquefaction"]
+  },
+  {
+    "name": "Light_oil",
+    "cname": "轻油",
+    "type": "Intermediate_products",
+    "subtype": "Fluids",
+    "formula": ["Advanced_oil_processing", "Coal_liquefaction", "Heavy_oil_cracking"]
+  },
+  {
+    "name": "Petroleum_gas",
+    "cname": "石油气",
+    "type": "Intermediate_products",
+    "subtype": "Fluids",
+    "formula": [
+      "Basic_oil_processing",
+      "Advanced_oil_processing",
+      "Coal_liquefaction",
+      "Heavy_oil_cracking"
+    ]
+  },
+  {
+    "name": "Lubricant",
+    "cname": "润滑油",
+    "type": "Intermediate_products",
+    "subtype": "Fluids",
+    "formula": ["Lubricant"]
+  },
+  {
+    "name": "Sulfuric_acid",
+    "cname": "硫酸",
+    "type": "Intermediate_products",
+    "subtype": "Fluids",
+    "formula": ["Sulfuric_acid"]
+  },
+  {
+    "name": "Steam",
+    "cname": "蒸汽",
+    "type": "Intermediate_products",
+    "subtype": "Fluids",
+    "formula": []
+  },
+  {
+    "name": "Iron_plate",
+    "cname": "铁板",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Iron_plate"]
+  },
+  {
+    "name": "Copper_plate",
+    "cname": "铜板",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Copper_plate"]
+  },
+  {
+    "name": "Solid_fuel",
+    "cname": "固体燃料",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": [
+      "Solid_fuel_from_heavy_oil",
+      "Solid_fuel_from_light_oil",
+      "Solid_fuel_from_petroleum_gas"
+    ]
+  },
+  {
+    "name": "Steel_plate",
+    "cname": "钢",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Steel_plate"]
+  },
+  {
+    "name": "Plastic_bar",
+    "cname": "塑料",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Plastic_bar"]
+  },
+  {
+    "name": "Sulfur",
+    "cname": "硫磺",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Sulfur"]
+  },
+  {
+    "name": "Battery",
+    "cname": "电池",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Battery"]
+  },
+  {
+    "name": "Explosives",
+    "cname": "炸药",
+    "type": "Intermediate_products",
+    "subtype": "Materials",
+    "formula": ["Explosives"]
+  },
+  {
+    "name": "Copper_cable",
+    "cname": "铜线",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Copper_cable"]
+  },
+  {
+    "name": "Iron_stick",
+    "cname": "铁棒",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Iron_stick"]
+  },
+  {
+    "name": "Iron_gear_wheel",
+    "cname": "铁齿轮",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Iron_gear_wheel"]
+  },
+  {
+    "name": "Electronic_circuit",
+    "cname": "电路板",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Electronic_circuit"]
+  },
+  {
+    "name": "Advanced_circuit",
+    "cname": "集成电路",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Advanced_circuit"]
+  },
+  {
+    "name": "Processing_unit",
+    "cname": "处理器",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Processing_unit"]
+  },
+  {
+    "name": "Engine_unit",
+    "cname": "发动机",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Engine_unit"]
+  },
+  {
+    "name": "Electric_engine_unit",
+    "cname": "电动机",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["EnginElectric_engine_unite_unit"]
+  },
+  {
+    "name": "Flying_robot_frame",
+    "cname": "机器人框架",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Flying_robot_frame"]
+  },
+  {
+    "name": "Satellite",
+    "cname": "卫星",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Satellite"]
+  },
+  {
+    "name": "Rocket_part",
+    "cname": "火箭组件",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Rocket_part"]
+  },
+  {
+    "name": "Rocket_control_unit",
+    "cname": "",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Rocket_control_unit"]
+  },
+  {
+    "name": "Low_density_structure",
+    "cname": "轻质框架",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Low_density_structure"]
+  },
+  {
+    "name": "Rocket_fuel",
+    "cname": "火箭燃料",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Rocket_fuel"]
+  },
+  {
+    "name": "Automation_science_pack",
+    "cname": "1级瓶子",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Automation_science_pack"]
+  },
+  {
+    "name": "Logistic_science_pack",
+    "cname": "2级瓶子",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Logistic_science_pack"]
+  },
+  {
+    "name": "Military_science_pack",
+    "cname": "黑瓶",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Military_science_pack"]
+  },
+  {
+    "name": "Chemical_science_pack",
+    "cname": "3级瓶子",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Chemical_science_pack"]
+  },
+  {
+    "name": "Production_science_pack",
+    "cname": "4级瓶子",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Production_science_pack"]
+  },
+  {
+    "name": "Utility_science_pack",
+    "cname": "5级瓶子",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Utility_science_pack"]
+  },
+  {
+    "name": "Space_science_pack",
+    "cname": "太空瓶子",
+    "type": "Intermediate_products",
+    "subtype": "Science_packs",
+    "formula": ["Space_science_pack"]
+  },
+  {
+    "name": "Steel_chest",
+    "cname": "钢箱子",
+    "type": "Logistics",
+    "subtype": "Storage",
+    "formula": ["Steel_chest"]
+  },
+  {
+    "name": "Storage_tank",
+    "cname": "储液罐",
+    "type": "Logistics",
+    "subtype": "Storage",
+    "formula": ["Storage_tank"]
+  },
+  {
+    "name": "Transport_belt",
+    "cname": "基础传送带",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Transport_belt"]
+  },
+  {
+    "name": "Fast_transport_belt",
+    "cname": "高速传送带",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Fast_transport_belt"]
+  },
+  {
+    "name": "Express_transport_belt",
+    "cname": "极速传送带",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Express_transport_belt"]
+  },
+  {
+    "name": "Underground_belt",
+    "cname": "",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Underground_belt"]
+  },
+  {
+    "name": "Fast_underground_belt",
+    "cname": "",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Fast_underground_belt"]
+  },
+  {
+    "name": "Express_underground_belt",
+    "cname": "",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Express_underground_belt"]
+  },
+  {
+    "name": "Splitter",
+    "cname": "",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Splitter"]
+  },
+  {
+    "name": "Fast_splitter",
+    "cname": "",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Fast_splitter"]
+  },
+  {
+    "name": "Express_splitter",
+    "cname": "",
+    "type": "Logistics",
+    "subtype": "Belt_transport_system",
+    "formula": ["Express_splitter"]
+  },
+  {
+    "name": "Inserter",
+    "cname": "机械臂",
+    "type": "Logistics",
+    "subtype": "Inserters",
+    "formula": ["Inserter"]
+  },
+  {
+    "name": "Long_handed_inserter",
+    "cname": "加长机械臂",
+    "type": "Logistics",
+    "subtype": "Inserters",
+    "formula": ["Long_handed_inserter"]
+  },
+  {
+    "name": "Fast_inserter",
+    "cname": "高速机械臂",
+    "type": "Logistics",
+    "subtype": "Inserters",
+    "formula": ["Fast_inserter"]
+  },
+  {
+    "name": "Filter_inserter",
+    "cname": "筛选机械臂",
+    "type": "Logistics",
+    "subtype": "Inserters",
+    "formula": ["Filter_inserter"]
+  },
+  {
+    "name": "Stack_inserter",
+    "cname": "集装机械臂",
+    "type": "Logistics",
+    "subtype": "Inserters",
+    "formula": ["Stack_inserter"]
+  },
+  {
+    "name": "Stack_filter_inserter",
+    "cname": "集装筛选机械臂",
+    "type": "Logistics",
+    "subtype": "Inserters",
+    "formula": ["Stack_filter_inserter"]
+  },
+  {
+    "name": "Medium_electric_pole",
+    "cname": "中型电线杆",
+    "type": "Logistics",
+    "subtype": "Energy",
+    "formula": ["Medium_electric_pole"]
+  },
+  {
+    "name": "Big_electric_pole",
+    "cname": "远程",
+    "type": "Logistics",
+    "subtype": "Energy",
+    "formula": ["Big_electric_pole"]
+  },
+  {
+    "name": "Substation",
+    "cname": "供电站",
+    "type": "Logistics",
+    "subtype": "Energy",
+    "formula": ["Substation"]
+  },
+  {
+    "name": "Pipe",
+    "cname": "管道",
+    "type": "Logistics",
+    "subtype": "Pipe",
+    "formula": ["Pipe"]
+  },
+  {
+    "name": "Pipe_to_ground",
+    "cname": "地下管道",
+    "type": "Logistics",
+    "subtype": "Pipe",
+    "formula": ["Pipe_to_ground"]
+  },
+  {
+    "name": "Pump",
+    "cname": "管道泵",
+    "type": "Logistics",
+    "subtype": "Pipe",
+    "formula": ["Pump"]
+  }
+]
