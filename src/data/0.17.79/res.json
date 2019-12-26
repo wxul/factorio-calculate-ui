@@ -115,7 +115,7 @@
   },
   {
     "name": "Steel_plate",
-    "cname": "钢",
+    "cname": "钢材",
     "type": "Intermediate_products",
     "subtype": "Materials",
     "formula": ["Steel_plate"]
@@ -170,6 +170,13 @@
     "formula": ["Iron_gear_wheel"]
   },
   {
+    "name": "Empty_barrel",
+    "cname": "空桶",
+    "type": "Intermediate_products",
+    "subtype": "Crafting_components",
+    "formula": ["Empty_barrel"]
+  },
+  {
     "name": "Electronic_circuit",
     "cname": "电路板",
     "type": "Intermediate_products",
@@ -192,7 +199,7 @@
   },
   {
     "name": "Engine_unit",
-    "cname": "发动机",
+    "cname": "内燃机",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
     "formula": ["Engine_unit"]
@@ -227,7 +234,7 @@
   },
   {
     "name": "Rocket_control_unit",
-    "cname": "",
+    "cname": "火箭控制器",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
     "formula": ["Rocket_control_unit"]
@@ -262,7 +269,7 @@
   },
   {
     "name": "Military_science_pack",
-    "cname": "黑瓶",
+    "cname": "军备科技包",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
     "formula": ["Military_science_pack"]
@@ -276,7 +283,7 @@
   },
   {
     "name": "Production_science_pack",
-    "cname": "4级瓶子",
+    "cname": "生产科技包",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
     "formula": ["Production_science_pack"]
@@ -290,14 +297,14 @@
   },
   {
     "name": "Space_science_pack",
-    "cname": "太空瓶子",
+    "cname": "太空科技包",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
     "formula": ["Space_science_pack"]
   },
   {
     "name": "Steel_chest",
-    "cname": "钢箱子",
+    "cname": "钢制箱",
     "type": "Logistics",
     "subtype": "Storage",
     "formula": ["Steel_chest"]
@@ -332,42 +339,42 @@
   },
   {
     "name": "Underground_belt",
-    "cname": "",
+    "cname": "基础地下传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
     "formula": ["Underground_belt"]
   },
   {
     "name": "Fast_underground_belt",
-    "cname": "",
+    "cname": "高速地下传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
     "formula": ["Fast_underground_belt"]
   },
   {
     "name": "Express_underground_belt",
-    "cname": "",
+    "cname": "极速地下传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
     "formula": ["Express_underground_belt"]
   },
   {
     "name": "Splitter",
-    "cname": "",
+    "cname": "基础分流器",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
     "formula": ["Splitter"]
   },
   {
     "name": "Fast_splitter",
-    "cname": "",
+    "cname": "高速分流器",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
     "formula": ["Fast_splitter"]
   },
   {
     "name": "Express_splitter",
-    "cname": "",
+    "cname": "极速分流器",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
     "formula": ["Express_splitter"]
@@ -423,14 +430,14 @@
   },
   {
     "name": "Big_electric_pole",
-    "cname": "远程",
+    "cname": "远程输电塔",
     "type": "Logistics",
     "subtype": "Energy",
     "formula": ["Big_electric_pole"]
   },
   {
     "name": "Substation",
-    "cname": "供电站",
+    "cname": "广域配电站",
     "type": "Logistics",
     "subtype": "Energy",
     "formula": ["Substation"]
@@ -455,5 +462,208 @@
     "type": "Logistics",
     "subtype": "Pipe",
     "formula": ["Pump"]
+  },
+  {
+    "name": "Straight_rail",
+    "cname": "铁轨",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Straight_rail"]
+  },
+  {
+    "name": "Train_stop",
+    "cname": "火车站",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Train_stop"]
+  },
+  {
+    "name": "Rail_signal",
+    "cname": "常规铁路信号",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Rail_signal"]
+  },
+  {
+    "name": "Rail_chain_signal",
+    "cname": "联锁铁路信号",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Rail_chain_signal"]
+  },
+  {
+    "name": "Locomotive",
+    "cname": "内燃机车",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Locomotive"]
+  },
+  {
+    "name": "Cargo_wagon",
+    "cname": "货运车厢",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Cargo_wagon"]
+  },
+  {
+    "name": "Fluid_wagon",
+    "cname": "液罐车厢",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Fluid_wagon"]
+  },
+  {
+    "name": "Artillery_wagon",
+    "cname": "重炮车厢",
+    "type": "Logistics",
+    "subtype": "Transport",
+    "formula": ["Artillery_wagon"]
+  },
+  {
+    "name": "Logistic_robot",
+    "cname": "物流机器人",
+    "type": "Logistics",
+    "subtype": "Logistic_network",
+    "formula": ["Logistic_robot"]
+  },
+  {
+    "name": "Construction_robot",
+    "cname": "建设机器人",
+    "type": "Logistics",
+    "subtype": "Logistic_network",
+    "formula": ["Construction_robot"]
+  },
+  {
+    "name": "Roboport",
+    "cname": "机器人指令平台",
+    "type": "Logistics",
+    "subtype": "Logistic_network",
+    "formula": ["Construction_robot"]
+  },
+  {
+    "name": "Stone_brick",
+    "cname": "石砖",
+    "type": "Logistics",
+    "subtype": "Terrain",
+    "formula": ["Stone_brick"]
+  },
+  {
+    "name": "Concrete",
+    "cname": "标准混凝土",
+    "type": "Logistics",
+    "subtype": "Terrain",
+    "formula": ["Concrete"]
+  },
+  {
+    "name": "Refined_concrete",
+    "cname": "钢筋混凝土",
+    "type": "Logistics",
+    "subtype": "Terrain",
+    "formula": ["Refined_concrete"]
+  },
+  {
+    "name": "Landfill",
+    "cname": "填海材料",
+    "type": "Logistics",
+    "subtype": "Terrain",
+    "formula": ["Landfill"]
+  },
+  {
+    "name": "Cliff_explosives",
+    "cname": "悬崖炸药",
+    "type": "Logistics",
+    "subtype": "Terrain",
+    "formula": ["Cliff_explosives"]
+  },
+  {
+    "name": "Repair_pack",
+    "cname": "修理包",
+    "type": "Production_items",
+    "subtype": "Tools",
+    "formula": ["Repair_pack"]
+  },
+  {
+    "name": "Steam_turbine",
+    "cname": "汽轮机",
+    "type": "Production_items",
+    "subtype": "Electricity",
+    "formula": ["Steam_turbine"]
+  },
+  {
+    "name": "Solar_panel",
+    "cname": "太阳能板",
+    "type": "Production_items",
+    "subtype": "Electricity",
+    "formula": ["Solar_panel"]
+  },
+  {
+    "name": "Accumulator",
+    "cname": "蓄电器",
+    "type": "Production_items",
+    "subtype": "Electricity",
+    "formula": ["Accumulator"]
+  },
+  {
+    "name": "Heat_exchanger",
+    "cname": "换热器",
+    "type": "Production_items",
+    "subtype": "Electricity",
+    "formula": ["Heat_exchanger"]
+  },
+  {
+    "name": "Heat_pipe",
+    "cname": "热管",
+    "type": "Production_items",
+    "subtype": "Electricity",
+    "formula": ["Heat_pipe"]
+  },
+  {
+    "name": "Electric_mining_drill",
+    "cname": "电力采矿机",
+    "type": "Production_items",
+    "subtype": "Resource_extraction",
+    "formula": ["Electric_mining_drill"]
+  },
+  {
+    "name": "Offshore_pump",
+    "cname": "供水泵",
+    "type": "Production_items",
+    "subtype": "Resource_extraction",
+    "formula": ["Offshore_pump"]
+  },
+  {
+    "name": "Pumpjack",
+    "cname": "抽油机",
+    "type": "Production_items",
+    "subtype": "Resource_extraction",
+    "formula": ["Pumpjack"]
+  },
+  {
+    "name": "Electric_furnace",
+    "cname": "电炉",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": ["Electric_furnace"]
+  },
+  {
+    "name": "Assembling_machine_1",
+    "cname": "组装机1型",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": ["Assembling_machine_1"]
+  },
+  {
+    "name": "Assembling_machine_2",
+    "cname": "组装机2型",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": ["Assembling_machine_2"]
+  },
+  {
+    "name": "Assembling_machine_3",
+    "cname": "组装机3型",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": ["Assembling_machine_3"]
   }
 ]
