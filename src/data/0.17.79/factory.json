@@ -1,1 +1,68 @@
-[]
+[
+    {
+        "name": "Electric_mining_drill",
+        "cname": "电力采矿机",
+        "slot": 3,
+        "speed": 1
+    },
+    {
+        "name": "Offshore_pump",
+        "cname": "供水泵",
+        "slot": 0,
+        "speed": 1
+    },
+    {
+        "name": "Pumpjack",
+        "cname": "抽油机",
+        "slot": 2,
+        "speed": 1
+    },
+    {
+        "name": "Stone_furnace",
+        "cname": "石炉",
+        "slot": 0,
+        "speed": 1
+    },
+    {
+        "name": "Steel_furnace",
+        "cname": "钢炉",
+        "slot": 0,
+        "speed": 2
+    },
+    {
+        "name": "Electric_furnace",
+        "cname": "电炉",
+        "slot": 2,
+        "speed": 2
+    },
+    {
+        "name": "Assembling_machine_1",
+        "cname": "组装机1型",
+        "slot": 0,
+        "speed": 0.5
+    },
+    {
+        "name": "Assembling_machine_2",
+        "cname": "组装机2型",
+        "slot": 2,
+        "speed": 0.75
+    },
+    {
+        "name": "Assembling_machine_3",
+        "cname": "组装机3型",
+        "slot": 4,
+        "speed": 1.25
+    },
+    {
+        "name": "Oil_refinery",
+        "cname": "炼油厂",
+        "slot": 3,
+        "speed": 1
+    },
+    {
+        "name": "Chemical_plant",
+        "cname": "化工厂",
+        "slot": 3,
+        "speed": 1
+    }
+]

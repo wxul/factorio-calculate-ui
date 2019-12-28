@@ -4,56 +4,75 @@
     "cname": "铁矿",
     "type": "Intermediate_products",
     "subtype": "Resource",
-    "formula": ["Mines_iron_ore"]
+    "formula": [
+      "Mines_iron_ore"
+    ]
   },
   {
     "name": "Copper_ore",
     "cname": "铜矿",
     "type": "Intermediate_products",
     "subtype": "Resource",
-    "formula": ["Mines_copper_ore"]
+    "formula": [
+      "Mines_copper_ore"
+    ]
   },
   {
     "name": "Stone",
     "cname": "石矿",
     "type": "Intermediate_products",
     "subtype": "Resource",
-    "formula": ["Mines_stone"]
+    "formula": [
+      "Mines_stone"
+    ]
   },
   {
     "name": "Coal",
     "cname": "煤矿",
     "type": "Intermediate_products",
     "subtype": "Resource",
-    "formula": ["Mines_coal"]
+    "formula": [
+      "Mines_coal"
+    ]
   },
   {
     "name": "Crude_oil",
     "cname": "原油",
     "type": "Intermediate_products",
     "subtype": "Resource",
-    "formula": ["Pumping_oil"]
+    "formula": [
+      "Pumping_oil"
+    ]
   },
   {
     "name": "Water",
     "cname": "水",
     "type": "Intermediate_products",
     "subtype": "Resource",
-    "formula": ["Pumping"]
+    "formula": [
+      "Pumping"
+    ]
   },
   {
     "name": "Heavy_oil",
     "cname": "重油",
     "type": "Intermediate_products",
     "subtype": "Fluids",
-    "formula": ["Advanced_oil_processing", "Coal_liquefaction"]
+    "formula": [
+      "Advanced_oil_processing",
+      "Coal_liquefaction"
+    ]
   },
   {
     "name": "Light_oil",
     "cname": "轻油",
     "type": "Intermediate_products",
     "subtype": "Fluids",
-    "formula": ["Advanced_oil_processing", "Coal_liquefaction", "Heavy_oil_cracking"]
+    "formula": [
+      "Advanced_oil_processing",
+      "Coal_liquefaction",
+      "Heavy_oil_cracking"
+    ]
   },
   {
     "name": "Petroleum_gas",
@@ -72,14 +91,18 @@
     "cname": "润滑油",
     "type": "Intermediate_products",
     "subtype": "Fluids",
-    "formula": ["Lubricant"]
+    "formula": [
+      "Lubricant"
+    ]
   },
   {
     "name": "Sulfuric_acid",
     "cname": "硫酸",
     "type": "Intermediate_products",
     "subtype": "Fluids",
-    "formula": ["Sulfuric_acid"]
+    "formula": [
+      "Sulfuric_acid"
+    ]
   },
   {
     "name": "Steam",
@@ -93,14 +116,18 @@
     "cname": "铁板",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Iron_plate"]
+    "formula": [
+      "Iron_plate"
+    ]
   },
   {
     "name": "Copper_plate",
     "cname": "铜板",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Copper_plate"]
+    "formula": [
+      "Copper_plate"
+    ]
   },
   {
     "name": "Solid_fuel",
@@ -118,552 +145,926 @@
     "cname": "钢材",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Steel_plate"]
+    "formula": [
+      "Steel_plate"
+    ]
   },
   {
     "name": "Plastic_bar",
     "cname": "塑料",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Plastic_bar"]
+    "formula": [
+      "Plastic_bar"
+    ]
   },
   {
     "name": "Sulfur",
     "cname": "硫磺",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Sulfur"]
+    "formula": [
+      "Sulfur"
+    ]
   },
   {
     "name": "Battery",
     "cname": "电池",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Battery"]
+    "formula": [
+      "Battery"
+    ]
   },
   {
     "name": "Explosives",
     "cname": "炸药",
     "type": "Intermediate_products",
     "subtype": "Materials",
-    "formula": ["Explosives"]
+    "formula": [
+      "Explosives"
+    ]
   },
   {
     "name": "Copper_cable",
     "cname": "铜线",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Copper_cable"]
+    "formula": [
+      "Copper_cable"
+    ]
   },
   {
     "name": "Iron_stick",
     "cname": "铁棒",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Iron_stick"]
+    "formula": [
+      "Iron_stick"
+    ]
   },
   {
     "name": "Iron_gear_wheel",
     "cname": "铁齿轮",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Iron_gear_wheel"]
+    "formula": [
+      "Iron_gear_wheel"
+    ]
   },
   {
     "name": "Empty_barrel",
     "cname": "空桶",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Empty_barrel"]
+    "formula": [
+      "Empty_barrel"
+    ]
   },
   {
     "name": "Electronic_circuit",
     "cname": "电路板",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Electronic_circuit"]
+    "formula": [
+      "Electronic_circuit"
+    ]
   },
   {
     "name": "Advanced_circuit",
     "cname": "集成电路",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Advanced_circuit"]
+    "formula": [
+      "Advanced_circuit"
+    ]
   },
   {
     "name": "Processing_unit",
     "cname": "处理器",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Processing_unit"]
+    "formula": [
+      "Processing_unit"
+    ]
   },
   {
     "name": "Engine_unit",
     "cname": "内燃机",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Engine_unit"]
+    "formula": [
+      "Engine_unit"
+    ]
   },
   {
     "name": "Electric_engine_unit",
     "cname": "电动机",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["EnginElectric_engine_unite_unit"]
+    "formula": [
+      "EnginElectric_engine_unite_unit"
+    ]
   },
   {
     "name": "Flying_robot_frame",
     "cname": "机器人框架",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Flying_robot_frame"]
+    "formula": [
+      "Flying_robot_frame"
+    ]
   },
   {
     "name": "Satellite",
     "cname": "卫星",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Satellite"]
+    "formula": [
+      "Satellite"
+    ]
   },
   {
     "name": "Rocket_part",
     "cname": "火箭组件",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Rocket_part"]
+    "formula": [
+      "Rocket_part"
+    ]
   },
   {
     "name": "Rocket_control_unit",
     "cname": "火箭控制器",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Rocket_control_unit"]
+    "formula": [
+      "Rocket_control_unit"
+    ]
   },
   {
     "name": "Low_density_structure",
     "cname": "轻质框架",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Low_density_structure"]
+    "formula": [
+      "Low_density_structure"
+    ]
   },
   {
     "name": "Rocket_fuel",
     "cname": "火箭燃料",
     "type": "Intermediate_products",
     "subtype": "Crafting_components",
-    "formula": ["Rocket_fuel"]
+    "formula": [
+      "Rocket_fuel"
+    ]
   },
   {
     "name": "Automation_science_pack",
     "cname": "1级瓶子",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Automation_science_pack"]
+    "formula": [
+      "Automation_science_pack"
+    ]
   },
   {
     "name": "Logistic_science_pack",
     "cname": "2级瓶子",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Logistic_science_pack"]
+    "formula": [
+      "Logistic_science_pack"
+    ]
   },
   {
     "name": "Military_science_pack",
     "cname": "军备科技包",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Military_science_pack"]
+    "formula": [
+      "Military_science_pack"
+    ]
   },
   {
     "name": "Chemical_science_pack",
     "cname": "3级瓶子",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Chemical_science_pack"]
+    "formula": [
+      "Chemical_science_pack"
+    ]
   },
   {
     "name": "Production_science_pack",
     "cname": "生产科技包",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Production_science_pack"]
+    "formula": [
+      "Production_science_pack"
+    ]
   },
   {
     "name": "Utility_science_pack",
     "cname": "5级瓶子",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Utility_science_pack"]
+    "formula": [
+      "Utility_science_pack"
+    ]
   },
   {
     "name": "Space_science_pack",
     "cname": "太空科技包",
     "type": "Intermediate_products",
     "subtype": "Science_packs",
-    "formula": ["Space_science_pack"]
+    "formula": [
+      "Space_science_pack"
+    ]
   },
   {
     "name": "Steel_chest",
     "cname": "钢制箱",
     "type": "Logistics",
     "subtype": "Storage",
-    "formula": ["Steel_chest"]
+    "formula": [
+      "Steel_chest"
+    ]
   },
   {
     "name": "Storage_tank",
     "cname": "储液罐",
     "type": "Logistics",
     "subtype": "Storage",
-    "formula": ["Storage_tank"]
+    "formula": [
+      "Storage_tank"
+    ]
   },
   {
     "name": "Transport_belt",
     "cname": "基础传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Transport_belt"]
+    "formula": [
+      "Transport_belt"
+    ]
   },
   {
     "name": "Fast_transport_belt",
     "cname": "高速传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Fast_transport_belt"]
+    "formula": [
+      "Fast_transport_belt"
+    ]
   },
   {
     "name": "Express_transport_belt",
     "cname": "极速传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Express_transport_belt"]
+    "formula": [
+      "Express_transport_belt"
+    ]
   },
   {
     "name": "Underground_belt",
     "cname": "基础地下传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Underground_belt"]
+    "formula": [
+      "Underground_belt"
+    ]
   },
   {
     "name": "Fast_underground_belt",
     "cname": "高速地下传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Fast_underground_belt"]
+    "formula": [
+      "Fast_underground_belt"
+    ]
   },
   {
     "name": "Express_underground_belt",
     "cname": "极速地下传送带",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Express_underground_belt"]
+    "formula": [
+      "Express_underground_belt"
+    ]
   },
   {
     "name": "Splitter",
     "cname": "基础分流器",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Splitter"]
+    "formula": [
+      "Splitter"
+    ]
   },
   {
     "name": "Fast_splitter",
     "cname": "高速分流器",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Fast_splitter"]
+    "formula": [
+      "Fast_splitter"
+    ]
   },
   {
     "name": "Express_splitter",
     "cname": "极速分流器",
     "type": "Logistics",
     "subtype": "Belt_transport_system",
-    "formula": ["Express_splitter"]
+    "formula": [
+      "Express_splitter"
+    ]
   },
   {
     "name": "Inserter",
     "cname": "机械臂",
     "type": "Logistics",
     "subtype": "Inserters",
-    "formula": ["Inserter"]
+    "formula": [
+      "Inserter"
+    ]
   },
   {
     "name": "Long_handed_inserter",
     "cname": "加长机械臂",
     "type": "Logistics",
     "subtype": "Inserters",
-    "formula": ["Long_handed_inserter"]
+    "formula": [
+      "Long_handed_inserter"
+    ]
   },
   {
     "name": "Fast_inserter",
     "cname": "高速机械臂",
     "type": "Logistics",
     "subtype": "Inserters",
-    "formula": ["Fast_inserter"]
+    "formula": [
+      "Fast_inserter"
+    ]
   },
   {
     "name": "Filter_inserter",
     "cname": "筛选机械臂",
     "type": "Logistics",
     "subtype": "Inserters",
-    "formula": ["Filter_inserter"]
+    "formula": [
+      "Filter_inserter"
+    ]
   },
   {
     "name": "Stack_inserter",
     "cname": "集装机械臂",
     "type": "Logistics",
     "subtype": "Inserters",
-    "formula": ["Stack_inserter"]
+    "formula": [
+      "Stack_inserter"
+    ]
   },
   {
     "name": "Stack_filter_inserter",
     "cname": "集装筛选机械臂",
     "type": "Logistics",
     "subtype": "Inserters",
-    "formula": ["Stack_filter_inserter"]
+    "formula": [
+      "Stack_filter_inserter"
+    ]
   },
   {
     "name": "Medium_electric_pole",
     "cname": "中型电线杆",
     "type": "Logistics",
     "subtype": "Energy",
-    "formula": ["Medium_electric_pole"]
+    "formula": [
+      "Medium_electric_pole"
+    ]
   },
   {
     "name": "Big_electric_pole",
     "cname": "远程输电塔",
     "type": "Logistics",
     "subtype": "Energy",
-    "formula": ["Big_electric_pole"]
+    "formula": [
+      "Big_electric_pole"
+    ]
   },
   {
     "name": "Substation",
     "cname": "广域配电站",
     "type": "Logistics",
     "subtype": "Energy",
-    "formula": ["Substation"]
+    "formula": [
+      "Substation"
+    ]
   },
   {
     "name": "Pipe",
     "cname": "管道",
     "type": "Logistics",
     "subtype": "Pipe",
-    "formula": ["Pipe"]
+    "formula": [
+      "Pipe"
+    ]
   },
   {
     "name": "Pipe_to_ground",
     "cname": "地下管道",
     "type": "Logistics",
     "subtype": "Pipe",
-    "formula": ["Pipe_to_ground"]
+    "formula": [
+      "Pipe_to_ground"
+    ]
   },
   {
     "name": "Pump",
     "cname": "管道泵",
     "type": "Logistics",
     "subtype": "Pipe",
-    "formula": ["Pump"]
+    "formula": [
+      "Pump"
+    ]
   },
   {
     "name": "Straight_rail",
     "cname": "铁轨",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Straight_rail"]
+    "formula": [
+      "Straight_rail"
+    ]
   },
   {
     "name": "Train_stop",
     "cname": "火车站",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Train_stop"]
+    "formula": [
+      "Train_stop"
+    ]
   },
   {
     "name": "Rail_signal",
     "cname": "常规铁路信号",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Rail_signal"]
+    "formula": [
+      "Rail_signal"
+    ]
   },
   {
     "name": "Rail_chain_signal",
     "cname": "联锁铁路信号",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Rail_chain_signal"]
+    "formula": [
+      "Rail_chain_signal"
+    ]
   },
   {
     "name": "Locomotive",
     "cname": "内燃机车",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Locomotive"]
+    "formula": [
+      "Locomotive"
+    ]
   },
   {
     "name": "Cargo_wagon",
     "cname": "货运车厢",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Cargo_wagon"]
+    "formula": [
+      "Cargo_wagon"
+    ]
   },
   {
     "name": "Fluid_wagon",
     "cname": "液罐车厢",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Fluid_wagon"]
+    "formula": [
+      "Fluid_wagon"
+    ]
   },
   {
     "name": "Artillery_wagon",
     "cname": "重炮车厢",
     "type": "Logistics",
     "subtype": "Transport",
-    "formula": ["Artillery_wagon"]
+    "formula": [
+      "Artillery_wagon"
+    ]
   },
   {
     "name": "Logistic_robot",
     "cname": "物流机器人",
     "type": "Logistics",
     "subtype": "Logistic_network",
-    "formula": ["Logistic_robot"]
+    "formula": [
+      "Logistic_robot"
+    ]
   },
   {
     "name": "Construction_robot",
     "cname": "建设机器人",
     "type": "Logistics",
     "subtype": "Logistic_network",
-    "formula": ["Construction_robot"]
+    "formula": [
+      "Construction_robot"
+    ]
   },
   {
     "name": "Roboport",
     "cname": "机器人指令平台",
     "type": "Logistics",
     "subtype": "Logistic_network",
-    "formula": ["Construction_robot"]
+    "formula": [
+      "Construction_robot"
+    ]
   },
   {
     "name": "Stone_brick",
     "cname": "石砖",
     "type": "Logistics",
     "subtype": "Terrain",
-    "formula": ["Stone_brick"]
+    "formula": [
+      "Stone_brick"
+    ]
   },
   {
     "name": "Concrete",
     "cname": "标准混凝土",
     "type": "Logistics",
     "subtype": "Terrain",
-    "formula": ["Concrete"]
+    "formula": [
+      "Concrete"
+    ]
   },
   {
     "name": "Refined_concrete",
     "cname": "钢筋混凝土",
     "type": "Logistics",
     "subtype": "Terrain",
-    "formula": ["Refined_concrete"]
+    "formula": [
+      "Refined_concrete"
+    ]
   },
   {
     "name": "Landfill",
     "cname": "填海材料",
     "type": "Logistics",
     "subtype": "Terrain",
-    "formula": ["Landfill"]
+    "formula": [
+      "Landfill"
+    ]
   },
   {
     "name": "Cliff_explosives",
     "cname": "悬崖炸药",
     "type": "Logistics",
     "subtype": "Terrain",
-    "formula": ["Cliff_explosives"]
+    "formula": [
+      "Cliff_explosives"
+    ]
   },
   {
     "name": "Repair_pack",
     "cname": "修理包",
     "type": "Production_items",
     "subtype": "Tools",
-    "formula": ["Repair_pack"]
+    "formula": [
+      "Repair_pack"
+    ]
   },
   {
     "name": "Steam_turbine",
     "cname": "汽轮机",
     "type": "Production_items",
     "subtype": "Electricity",
-    "formula": ["Steam_turbine"]
+    "formula": [
+      "Steam_turbine"
+    ]
   },
   {
     "name": "Solar_panel",
     "cname": "太阳能板",
     "type": "Production_items",
     "subtype": "Electricity",
-    "formula": ["Solar_panel"]
+    "formula": [
+      "Solar_panel"
+    ]
   },
   {
     "name": "Accumulator",
     "cname": "蓄电器",
     "type": "Production_items",
     "subtype": "Electricity",
-    "formula": ["Accumulator"]
+    "formula": [
+      "Accumulator"
+    ]
   },
   {
     "name": "Heat_exchanger",
     "cname": "换热器",
     "type": "Production_items",
     "subtype": "Electricity",
-    "formula": ["Heat_exchanger"]
+    "formula": [
+      "Heat_exchanger"
+    ]
   },
   {
     "name": "Heat_pipe",
     "cname": "热管",
     "type": "Production_items",
     "subtype": "Electricity",
-    "formula": ["Heat_pipe"]
+    "formula": [
+      "Heat_pipe"
+    ]
   },
   {
     "name": "Electric_mining_drill",
     "cname": "电力采矿机",
     "type": "Production_items",
     "subtype": "Resource_extraction",
-    "formula": ["Electric_mining_drill"]
+    "formula": [
+      "Electric_mining_drill"
+    ]
   },
   {
     "name": "Offshore_pump",
     "cname": "供水泵",
     "type": "Production_items",
     "subtype": "Resource_extraction",
-    "formula": ["Offshore_pump"]
+    "formula": [
+      "Offshore_pump"
+    ]
   },
   {
     "name": "Pumpjack",
     "cname": "抽油机",
     "type": "Production_items",
     "subtype": "Resource_extraction",
-    "formula": ["Pumpjack"]
+    "formula": [
+      "Pumpjack"
+    ]
   },
   {
     "name": "Electric_furnace",
     "cname": "电炉",
     "type": "Production_items",
     "subtype": "Furnaces",
-    "formula": ["Electric_furnace"]
+    "formula": [
+      "Electric_furnace"
+    ]
   },
   {
     "name": "Assembling_machine_1",
     "cname": "组装机1型",
     "type": "Production_items",
     "subtype": "Furnaces",
-    "formula": ["Assembling_machine_1"]
+    "formula": [
+      "Assembling_machine_1"
+    ]
   },
   {
     "name": "Assembling_machine_2",
     "cname": "组装机2型",
     "type": "Production_items",
     "subtype": "Furnaces",
-    "formula": ["Assembling_machine_2"]
+    "formula": [
+      "Assembling_machine_2"
+    ]
   },
   {
     "name": "Assembling_machine_3",
     "cname": "组装机3型",
     "type": "Production_items",
     "subtype": "Furnaces",
-    "formula": ["Assembling_machine_3"]
+    "formula": [
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Oil_refinery",
+    "cname": "炼油厂",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": [
+      "Oil_refinery"
+    ]
+  },
+  {
+    "name": "Chemical_plant",
+    "cname": "化工厂",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": [
+      "Chemical_plant"
+    ]
+  },
+  {
+    "name": "Lab",
+    "cname": "研究中心",
+    "type": "Production_items",
+    "subtype": "Furnaces",
+    "formula": [
+      "Lab"
+    ]
+  },
+  {
+    "name": "Beacon",
+    "cname": "插件效果分享塔",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Speed_module",
+    "cname": "速度插件1",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Speed_module"
+    ]
+  },
+  {
+    "name": "Speed_module_2",
+    "cname": "速度插件2",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Speed_module_2"
+    ]
+  },
+  {
+    "name": "Speed_module_3",
+    "cname": "速度插件3",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Speed_module_3"
+    ]
+  },
+  {
+    "name": "Efficiency_module",
+    "cname": "节能插件1",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Efficiency_module"
+    ]
+  },
+  {
+    "name": "Efficiency_module_2",
+    "cname": "节能插件2",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Efficiency_module_2"
+    ]
+  },
+  {
+    "name": "Efficiency_module_3",
+    "cname": "节能插件3",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Efficiency_module_3"
+    ]
+  },
+  {
+    "name": "Productivity_module",
+    "cname": "产能插件1",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Productivity_module"
+    ]
+  },
+  {
+    "name": "Productivity_module_2",
+    "cname": "产能插件2",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Productivity_module_2"
+    ]
+  },
+  {
+    "name": "Productivity_module_3",
+    "cname": "产能插件3",
+    "type": "Production_items",
+    "subtype": "Modules",
+    "formula": [
+      "Productivity_module_3"
+    ]
+  },
+  {
+    "name": "Firearm_magazine",
+    "cname": "标准弹匣",
+    "type": "Combat_items",
+    "subtype": "Ammo",
+    "formula": [
+      "Firearm_magazine"
+    ]
+  },
+  {
+    "name": "Piercing_rounds_magazine",
+    "cname": "穿甲弹匣",
+    "type": "Combat_items",
+    "subtype": "Ammo",
+    "formula": [
+      "Piercing_rounds_magazine"
+    ]
+  },
+  {
+    "name": "Uranium_rounds_magazine",
+    "cname": "贫铀弹匣",
+    "type": "Combat_items",
+    "subtype": "Ammo",
+    "formula": [
+      "Uranium_rounds_magazine"
+    ]
+  },
+  {
+    "name": "Grenade",
+    "cname": "标准手雷",
+    "type": "Combat_items",
+    "subtype": "Capsules",
+    "formula": [
+      "Grenade"
+    ]
+  },
+  {
+    "name": "Cluster_grenade",
+    "cname": "集束手雷",
+    "type": "Combat_items",
+    "subtype": "Capsules",
+    "formula": [
+      "Cluster_grenade"
+    ]
+  },
+  {
+    "name": "Wall",
+    "cname": "墙壁",
+    "type": "Combat_items",
+    "subtype": "Defense",
+    "formula": [
+      "Wall"
+    ]
+  },
+  {
+    "name": "Gate",
+    "cname": "闸门",
+    "type": "Combat_items",
+    "subtype": "Defense",
+    "formula": [
+      "Gate"
+    ]
+  },
+  {
+    "name": "Gun_turret",
+    "cname": "机枪炮塔",
+    "type": "Combat_items",
+    "subtype": "Defense",
+    "formula": [
+      "Gun_turret"
+    ]
+  },
+  {
+    "name": "Laser_turret",
+    "cname": "激光炮塔",
+    "type": "Combat_items",
+    "subtype": "Defense",
+    "formula": [
+      "Laser_turret"
+    ]
+  },
+  {
+    "name": "Radar",
+    "cname": "雷达",
+    "type": "Combat_items",
+    "subtype": "Defense",
+    "formula": [
+      "Radar"
+    ]
+  },
+  {
+    "name": "Rocket_silo",
+    "cname": "火箭发射井",
+    "type": "Combat_items",
+    "subtype": "Defense",
+    "formula": [
+      "Rocket_silo"
+    ]
   }
 ]

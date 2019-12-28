@@ -2,54 +2,62 @@
   {
     "name": "Mines_copper_ore",
     "cname": "挖铜",
-    "cost_time": 1,
+    "cost_time": 2,
     "recipe": [],
     "product": [
       {
         "name": "Copper_ore",
-        "count": 0.5
+        "count": 1
       }
     ],
-    "produced_by": ["Electric_mining_drill"]
+    "produced_by": [
+      "Electric_mining_drill"
+    ]
   },
   {
     "name": "Mines_iron_ore",
     "cname": "挖铁",
-    "cost_time": 1,
+    "cost_time": 2,
     "recipe": [],
     "product": [
       {
         "name": "Iron_ore",
-        "count": 0.5
+        "count": 1
       }
     ],
-    "produced_by": ["Electric_mining_drill"]
+    "produced_by": [
+      "Electric_mining_drill"
+    ]
   },
   {
     "name": "Mines_coal",
     "cname": "挖煤",
-    "cost_time": 1,
+    "cost_time": 2,
     "recipe": [],
     "product": [
       {
         "name": "Coal",
-        "count": 0.5
+        "count": 1
       }
     ],
-    "produced_by": ["Electric_mining_drill"]
+    "produced_by": [
+      "Electric_mining_drill"
+    ]
   },
   {
     "name": "Mines_stone",
     "cname": "挖石",
-    "cost_time": 1,
+    "cost_time": 2,
     "recipe": [],
     "product": [
       {
         "name": "Stone",
-        "count": 0.5
+        "count": 1
       }
     ],
-    "produced_by": ["Electric_mining_drill"]
+    "produced_by": [
+      "Electric_mining_drill"
+    ]
   },
   {
     "name": "Pumping",
@@ -62,7 +70,9 @@
         "count": 1200
       }
     ],
-    "produced_by": ["Offshore_pump"]
+    "produced_by": [
+      "Offshore_pump"
+    ]
   },
   {
     "name": "Pumping_oil",
@@ -75,92 +85,145 @@
         "count": 0.1
       }
     ],
-    "produced_by": ["Pumpjack"]
+    "produced_by": [
+      "Pumpjack"
+    ]
   },
   {
     "name": "Iron_plate",
     "cname": "铁板",
     "cost_time": 3.2,
-    "recipe": [{ "name": "Iron_ore", "count": 1 }],
+    "recipe": [
+      {
+        "name": "Iron_ore",
+        "count": 1
+      }
+    ],
     "product": [
       {
         "name": "Iron_plate",
         "count": 1
       }
     ],
-    "produced_by": ["Stone_furnace", "Steel_furnace", "Electric_furnace"]
+    "produced_by": [
+      "Stone_furnace",
+      "Steel_furnace",
+      "Electric_furnace"
+    ]
   },
   {
     "name": "Copper_plate",
     "cname": "铜板",
     "cost_time": 3.2,
-    "recipe": [{ "name": "Copper_ore", "count": 1 }],
+    "recipe": [
+      {
+        "name": "Copper_ore",
+        "count": 1
+      }
+    ],
     "product": [
       {
         "name": "Copper_plate",
         "count": 1
       }
     ],
-    "produced_by": ["Stone_furnace", "Steel_furnace", "Electric_furnace"]
+    "produced_by": [
+      "Stone_furnace",
+      "Steel_furnace",
+      "Electric_furnace"
+    ]
   },
   {
     "name": "Solid_fuel_from_heavy_oil",
     "cname": "固体燃料: 重油",
     "cost_time": 2,
-    "recipe": [{ "name": "Heavy_oil", "count": 20 }],
+    "recipe": [
+      {
+        "name": "Heavy_oil",
+        "count": 20
+      }
+    ],
     "product": [
       {
         "name": "Solid_fuel",
         "count": 1
       }
     ],
-    "produced_by": ["Chemical_plant"]
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Solid_fuel_from_light_oil",
     "cname": "固体燃料: 轻油",
     "cost_time": 2,
-    "recipe": [{ "name": "Light_oil", "count": 10 }],
+    "recipe": [
+      {
+        "name": "Light_oil",
+        "count": 10
+      }
+    ],
     "product": [
       {
         "name": "Solid_fuel",
         "count": 1
       }
     ],
-    "produced_by": ["Chemical_plant"]
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Solid_fuel_from_petroleum_gas",
     "cname": "固体燃料: 石油气",
     "cost_time": 2,
-    "recipe": [{ "name": "Petroleum_gas", "count": 20 }],
+    "recipe": [
+      {
+        "name": "Petroleum_gas",
+        "count": 20
+      }
+    ],
     "product": [
       {
         "name": "Solid_fuel",
         "count": 1
       }
     ],
-    "produced_by": ["Chemical_plant"]
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Steel_plate",
     "cname": "钢材",
     "cost_time": 16,
-    "recipe": [{ "name": "Iron_plate", "count": 5 }],
+    "recipe": [
+      {
+        "name": "Iron_plate",
+        "count": 5
+      }
+    ],
     "product": [
       {
         "name": "Steel_plate",
         "count": 1
       }
     ],
-    "produced_by": ["Stone_furnace", "Steel_furnace", "Electric_furnace"]
+    "produced_by": [
+      "Stone_furnace",
+      "Steel_furnace",
+      "Electric_furnace"
+    ]
   },
   {
     "name": "Plastic_bar",
     "cname": "塑料",
     "cost_time": 1,
     "recipe": [
-      { "name": "Coal", "count": 1 },
+      {
+        "name": "Coal",
+        "count": 1
+      },
       {
         "name": "Petroleum_gas",
         "count": 20
@@ -172,14 +235,19 @@
         "count": 2
       }
     ],
-    "produced_by": ["Chemical_plant"]
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Sulfur",
     "cname": "硫磺",
     "cost_time": 1,
     "recipe": [
-      { "name": "Water", "count": 30 },
+      {
+        "name": "Water",
+        "count": 30
+      },
       {
         "name": "Petroleum_gas",
         "count": 30
@@ -191,14 +259,19 @@
         "count": 2
       }
     ],
-    "produced_by": ["Chemical_plant"]
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Battery",
     "cname": "电池",
     "cost_time": 4,
     "recipe": [
-      { "name": "Copper_plate", "count": 1 },
+      {
+        "name": "Copper_plate",
+        "count": 1
+      },
       {
         "name": "Iron_plate",
         "count": 1
@@ -214,48 +287,71 @@
         "count": 1
       }
     ],
-    "produced_by": ["Chemical_plant"]
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Basic_oil_processing",
     "cname": "基础原油处理",
     "cost_time": 5,
-    "recipe": [{ "name": "Crude_oil", "count": 100 }],
+    "recipe": [
+      {
+        "name": "Crude_oil",
+        "count": 100
+      }
+    ],
     "product": [
       {
         "name": "Petroleum_gas",
         "count": 45
       }
     ],
-    "produced_by": ["Oil_refinery"]
+    "produced_by": [
+      "Oil_refinery"
+    ]
   },
   {
     "name": "Advanced_oil_processing",
     "cname": "高等原油处理",
     "cost_time": 5,
     "recipe": [
-      { "name": "Crude_oil", "count": 100 },
+      {
+        "name": "Crude_oil",
+        "count": 100
+      },
       {
         "name": "Water",
         "count": 50
       }
     ],
     "product": [
-      { "name": "Heavy_oil", "count": 25 },
-      { "name": "Light_oil", "count": 45 },
+      {
+        "name": "Heavy_oil",
+        "count": 25
+      },
+      {
+        "name": "Light_oil",
+        "count": 45
+      },
       {
         "name": "Petroleum_gas",
         "count": 55
       }
     ],
-    "produced_by": ["Oil_refinery"]
+    "produced_by": [
+      "Oil_refinery"
+    ]
   },
   {
     "name": "Coal_liquefaction",
     "cname": "煤炭液化",
     "cost_time": 5,
     "recipe": [
-      { "name": "Coal", "count": 10 },
+      {
+        "name": "Coal",
+        "count": 10
+      },
       {
         "name": "Heavy_oil",
         "count": 25
@@ -266,14 +362,22 @@
       }
     ],
     "product": [
-      { "name": "Heavy_oil", "count": 90 },
-      { "name": "Light_oil", "count": 20 },
+      {
+        "name": "Heavy_oil",
+        "count": 90
+      },
+      {
+        "name": "Light_oil",
+        "count": 20
+      },
       {
         "name": "Petroleum_gas",
         "count": 10
       }
     ],
-    "produced_by": ["Oil_refinery"]
+    "produced_by": [
+      "Oil_refinery"
+    ]
   },
   {
     "name": "Heavy_oil_cracking",
@@ -289,8 +393,15 @@
         "count": 30
       }
     ],
-    "product": [{ "name": "Light_oil", "count": 30 }],
-    "produced_by": ["Chemical_plant"]
+    "product": [
+      {
+        "name": "Light_oil",
+        "count": 30
+      }
+    ],
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Light_oil_cracking",
@@ -306,8 +417,15 @@
         "count": 30
       }
     ],
-    "product": [{ "name": "Petroleum_gas", "count": 20 }],
-    "produced_by": ["Chemical_plant"]
+    "product": [
+      {
+        "name": "Petroleum_gas",
+        "count": 20
+      }
+    ],
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Sulfuric_acid",
@@ -318,14 +436,24 @@
         "name": "Iron_plate",
         "count": 1
       },
-      { "name": "Sulfur", "count": 5 },
+      {
+        "name": "Sulfur",
+        "count": 5
+      },
       {
         "name": "Water",
         "count": 100
       }
     ],
-    "product": [{ "name": "Sulfuric_acid", "count": 50 }],
-    "produced_by": ["Chemical_plant"]
+    "product": [
+      {
+        "name": "Sulfuric_acid",
+        "count": 50
+      }
+    ],
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Lubricant",
@@ -337,8 +465,15 @@
         "count": 10
       }
     ],
-    "product": [{ "name": "Lubricant", "count": 10 }],
-    "produced_by": ["Chemical_plant"]
+    "product": [
+      {
+        "name": "Lubricant",
+        "count": 10
+      }
+    ],
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Explosives",
@@ -358,8 +493,15 @@
         "count": 10
       }
     ],
-    "product": [{ "name": "Explosives", "count": 2 }],
-    "produced_by": ["Chemical_plant"]
+    "product": [
+      {
+        "name": "Explosives",
+        "count": 2
+      }
+    ],
+    "produced_by": [
+      "Chemical_plant"
+    ]
   },
   {
     "name": "Copper_cable",
@@ -371,8 +513,17 @@
         "count": 1
       }
     ],
-    "product": [{ "name": "Copper_cable", "count": 2 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Copper_cable",
+        "count": 2
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Iron_stick",
@@ -384,8 +535,17 @@
         "count": 1
       }
     ],
-    "product": [{ "name": "Iron_stick", "count": 2 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Iron_stick",
+        "count": 2
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Iron_gear_wheel",
@@ -397,8 +557,17 @@
         "count": 2
       }
     ],
-    "product": [{ "name": "Iron_gear_wheel", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Iron_gear_wheel",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Empty_barrel",
@@ -410,29 +579,53 @@
         "count": 1
       }
     ],
-    "product": [{ "name": "Empty_barrel", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Empty_barrel",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Electronic_circuit",
     "cname": "电路板",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Copper_cable", "count": 3 },
+      {
+        "name": "Copper_cable",
+        "count": 3
+      },
       {
         "name": "Iron_plate",
         "count": 1
       }
     ],
-    "product": [{ "name": "Electronic_circuit", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Electronic_circuit",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Advanced_circuit",
     "cname": "集成电路",
     "cost_time": 6,
     "recipe": [
-      { "name": "Copper_cable", "count": 4 },
+      {
+        "name": "Copper_cable",
+        "count": 4
+      },
       {
         "name": "Electronic_circuit",
         "count": 2
@@ -442,15 +635,27 @@
         "count": 2
       }
     ],
-    "product": [{ "name": "Advanced_circuit", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Advanced_circuit",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Processing_unit",
     "cname": "处理器",
     "cost_time": 10,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 2 },
+      {
+        "name": "Advanced_circuit",
+        "count": 2
+      },
       {
         "name": "Electronic_circuit",
         "count": 20
@@ -460,15 +665,26 @@
         "count": 5
       }
     ],
-    "product": [{ "name": "Processing_unit", "count": 1 }],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Processing_unit",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Engine_unit",
     "cname": "内燃机",
     "cost_time": 10,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 1 },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 1
+      },
       {
         "name": "Pipe",
         "count": 2
@@ -478,15 +694,27 @@
         "count": 1
       }
     ],
-    "product": [{ "name": "Engine_unit", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Engine_unit",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Electric_engine_unit",
     "cname": "电动机",
     "cost_time": 10,
     "recipe": [
-      { "name": "Engine_unit", "count": 1 },
+      {
+        "name": "Engine_unit",
+        "count": 1
+      },
       {
         "name": "Electronic_circuit",
         "count": 2
@@ -496,15 +724,26 @@
         "count": 15
       }
     ],
-    "product": [{ "name": "Electric_engine_unit", "count": 1 }],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Electric_engine_unit",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Flying_robot_frame",
     "cname": "机器人框架",
     "cost_time": 20,
     "recipe": [
-      { "name": "Battery", "count": 2 },
+      {
+        "name": "Battery",
+        "count": 2
+      },
       {
         "name": "Electronic_circuit",
         "count": 3
@@ -518,15 +757,27 @@
         "count": 1
       }
     ],
-    "product": [{ "name": "Flying_robot_frame", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Flying_robot_frame",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Satellite",
     "cname": "卫星",
     "cost_time": 5,
     "recipe": [
-      { "name": "Accumulator", "count": 100 },
+      {
+        "name": "Accumulator",
+        "count": 100
+      },
       {
         "name": "Low_density_structure",
         "count": 100
@@ -548,15 +799,27 @@
         "count": 100
       }
     ],
-    "product": [{ "name": "Satellite", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Satellite",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Rocket_part",
     "cname": "火箭组件",
     "cost_time": 3,
     "recipe": [
-      { "name": "Rocket_control_unit", "count": 10 },
+      {
+        "name": "Rocket_control_unit",
+        "count": 10
+      },
       {
         "name": "Low_density_structure",
         "count": 10
@@ -566,29 +829,51 @@
         "count": 10
       }
     ],
-    "product": [{ "name": "Rocket_part", "count": 1 }],
-    "produced_by": ["Rocket_silo"]
+    "product": [
+      {
+        "name": "Rocket_part",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Rocket_silo"
+    ]
   },
   {
     "name": "Rocket_control_unit",
     "cname": "火箭控制器",
     "cost_time": 30,
     "recipe": [
-      { "name": "Processing_unit", "count": 1 },
+      {
+        "name": "Processing_unit",
+        "count": 1
+      },
       {
         "name": "Speed_module",
         "count": 1
       }
     ],
-    "product": [{ "name": "Rocket_control_unit", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Rocket_control_unit",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Low_density_structure",
     "cname": "轻质框架",
     "cost_time": 20,
     "recipe": [
-      { "name": "Copper_plate", "count": 20 },
+      {
+        "name": "Copper_plate",
+        "count": 20
+      },
       {
         "name": "Plastic_bar",
         "count": 5
@@ -598,57 +883,104 @@
         "count": 2
       }
     ],
-    "product": [{ "name": "Low_density_structure", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Low_density_structure",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Rocket_fuel",
     "cname": "火箭燃料",
     "cost_time": 30,
     "recipe": [
-      { "name": "Solid_fuel", "count": 10 },
+      {
+        "name": "Solid_fuel",
+        "count": 10
+      },
       {
         "name": "Light_oil",
         "count": 10
       }
     ],
-    "product": [{ "name": "Rocket_fuel", "count": 1 }],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Rocket_fuel",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Automation_science_pack",
     "cname": "1级瓶子",
     "cost_time": 5,
     "recipe": [
-      { "name": "Copper_plate", "count": 1 },
+      {
+        "name": "Copper_plate",
+        "count": 1
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 1
       }
     ],
-    "product": [{ "name": "Automation_science_pack", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Automation_science_pack",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Logistic_science_pack",
     "cname": "2级瓶子",
     "cost_time": 6,
     "recipe": [
-      { "name": "Inserter", "count": 1 },
+      {
+        "name": "Inserter",
+        "count": 1
+      },
       {
         "name": "Transport_belt",
         "count": 1
       }
     ],
-    "product": [{ "name": "Logistic_science_pack", "count": 1 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Logistic_science_pack",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Military_science_pack",
     "cname": "军备科技包",
     "cost_time": 10,
     "recipe": [
-      { "name": "Grenade", "count": 1 },
+      {
+        "name": "Grenade",
+        "count": 1
+      },
       {
         "name": "Piercing_rounds_magazine",
         "count": 1
@@ -658,15 +990,27 @@
         "count": 2
       }
     ],
-    "product": [{ "name": "Military_science_pack", "count": 2 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Military_science_pack",
+        "count": 2
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Chemical_science_pack",
     "cname": "3级瓶子",
     "cost_time": 24,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 3 },
+      {
+        "name": "Advanced_circuit",
+        "count": 3
+      },
       {
         "name": "Engine_unit",
         "count": 2
@@ -676,15 +1020,27 @@
         "count": 1
       }
     ],
-    "product": [{ "name": "Chemical_science_pack", "count": 2 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Chemical_science_pack",
+        "count": 2
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Production_science_pack",
     "cname": "生产科技包",
     "cost_time": 21,
     "recipe": [
-      { "name": "Electric_furnace", "count": 1 },
+      {
+        "name": "Electric_furnace",
+        "count": 1
+      },
       {
         "name": "Productivity_module",
         "count": 1
@@ -694,15 +1050,27 @@
         "count": 30
       }
     ],
-    "product": [{ "name": "Production_science_pack", "count": 3 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Production_science_pack",
+        "count": 3
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Utility_science_pack",
     "cname": "5级瓶子",
     "cost_time": 21,
     "recipe": [
-      { "name": "Flying_robot_frame", "count": 1 },
+      {
+        "name": "Flying_robot_frame",
+        "count": 1
+      },
       {
         "name": "Low_density_structure",
         "count": 3
@@ -712,43 +1080,77 @@
         "count": 2
       }
     ],
-    "product": [{ "name": "Utility_science_pack", "count": 3 }],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "product": [
+      {
+        "name": "Utility_science_pack",
+        "count": 3
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Space_science_pack",
     "cname": "太空科技包",
     "cost_time": 1,
     "recipe": [
-      { "name": "Rocket_part", "count": 100 },
+      {
+        "name": "Rocket_part",
+        "count": 100
+      },
       {
         "name": "Satellite",
         "count": 1
       }
     ],
-    "product": [{ "name": "Space_science_pack", "count": 1000 }],
-    "produced_by": ["Rocket_silo"]
+    "product": [
+      {
+        "name": "Space_science_pack",
+        "count": 1000
+      }
+    ],
+    "produced_by": [
+      "Rocket_silo"
+    ]
   },
   {
     "name": "Steel_chest",
     "cname": "钢制箱",
     "cost_time": 0.5,
-    "recipe": [{ "name": "Steel_plate", "count": 8 }],
+    "recipe": [
+      {
+        "name": "Steel_plate",
+        "count": 8
+      }
+    ],
     "product": [
       {
         "name": "Steel_chest",
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Storage_tank",
     "cname": "储液罐",
     "cost_time": 3,
     "recipe": [
-      { "name": "Iron_plate", "count": 20 },
-      { "name": "Steel_plate", "count": 5 }
+      {
+        "name": "Iron_plate",
+        "count": 20
+      },
+      {
+        "name": "Steel_plate",
+        "count": 5
+      }
     ],
     "product": [
       {
@@ -756,15 +1158,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Transport_belt",
     "cname": "基础传送带",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Iron_plate", "count": 1 },
-      { "name": "Steel_plate", "count": 5 }
+      {
+        "name": "Iron_plate",
+        "count": 1
+      },
+      {
+        "name": "Steel_plate",
+        "count": 5
+      }
     ],
     "product": [
       {
@@ -772,15 +1184,25 @@
         "count": 2
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Fast_transport_belt",
     "cname": "高速传送带",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 5 },
-      { "name": "Transport_belt", "count": 1 }
+      {
+        "name": "Iron_gear_wheel",
+        "count": 5
+      },
+      {
+        "name": "Transport_belt",
+        "count": 1
+      }
     ],
     "product": [
       {
@@ -788,16 +1210,29 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Express_transport_belt",
     "cname": "极速传送带",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 10 },
-      { "name": "Fast_transport_belt", "count": 1 },
-      { "name": "Lubricant", "count": 10 }
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
+      {
+        "name": "Fast_transport_belt",
+        "count": 1
+      },
+      {
+        "name": "Lubricant",
+        "count": 10
+      }
     ],
     "product": [
       {
@@ -805,15 +1240,24 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Underground_belt",
     "cname": "基础地下传送带",
     "cost_time": 1,
     "recipe": [
-      { "name": "Iron_plate", "count": 10 },
-      { "name": "Transport_belt", "count": 5 }
+      {
+        "name": "Iron_plate",
+        "count": 10
+      },
+      {
+        "name": "Transport_belt",
+        "count": 5
+      }
     ],
     "product": [
       {
@@ -821,15 +1265,25 @@
         "count": 2
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Fast_underground_belt",
     "cname": "高速地下传送带",
     "cost_time": 2,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 40 },
-      { "name": "Underground_belt", "count": 2 }
+      {
+        "name": "Iron_gear_wheel",
+        "count": 40
+      },
+      {
+        "name": "Underground_belt",
+        "count": 2
+      }
     ],
     "product": [
       {
@@ -837,15 +1291,25 @@
         "count": 2
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Express_underground_belt",
     "cname": "极速地下传送带",
     "cost_time": 2,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 80 },
-      { "name": "Fast_underground_belt", "count": 2 },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 80
+      },
+      {
+        "name": "Fast_underground_belt",
+        "count": 2
+      },
       {
         "name": "Lubricant",
         "count": 40
@@ -857,15 +1321,24 @@
         "count": 2
       }
     ],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Splitter",
     "cname": "基础分流器",
     "cost_time": 1,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 5 },
-      { "name": "Iron_plate", "count": 5 },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Iron_plate",
+        "count": 5
+      },
       {
         "name": "Transport_belt",
         "count": 4
@@ -877,15 +1350,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Fast_splitter",
     "cname": "高速分流器",
     "cost_time": 2,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 10 },
-      { "name": "Iron_gear_wheel", "count": 10 },
+      {
+        "name": "Electronic_circuit",
+        "count": 10
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
       {
         "name": "Splitter",
         "count": 1
@@ -897,15 +1380,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Express_splitter",
     "cname": "极速分流器",
     "cost_time": 2,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 10 },
-      { "name": "Iron_gear_wheel", "count": 10 },
+      {
+        "name": "Advanced_circuit",
+        "count": 10
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
       {
         "name": "Fast_splitter",
         "count": 1
@@ -921,15 +1414,24 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Inserter",
     "cname": "机械臂",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 1 },
-      { "name": "Iron_gear_wheel", "count": 1 },
+      {
+        "name": "Electronic_circuit",
+        "count": 1
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 1
+      },
       {
         "name": "Iron_plate",
         "count": 1
@@ -941,15 +1443,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Long_handed_inserter",
     "cname": "加长机械臂",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Inserter", "count": 1 },
-      { "name": "Iron_gear_wheel", "count": 1 },
+      {
+        "name": "Inserter",
+        "count": 1
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 1
+      },
       {
         "name": "Iron_plate",
         "count": 1
@@ -961,15 +1473,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Fast_inserter",
     "cname": "高速机械臂",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Inserter", "count": 1 },
-      { "name": "Electronic_circuit", "count": 2 },
+      {
+        "name": "Inserter",
+        "count": 1
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 2
+      },
       {
         "name": "Iron_plate",
         "count": 2
@@ -981,15 +1503,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Filter_inserter",
     "cname": "筛选机械臂",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Fast_inserter", "count": 1 },
-      { "name": "Electronic_circuit", "count": 4 }
+      {
+        "name": "Fast_inserter",
+        "count": 1
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 4
+      }
     ],
     "product": [
       {
@@ -997,17 +1529,33 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Stack_inserter",
     "cname": "集装机械臂",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 1 },
-      { "name": "Fast_inserter", "count": 1 },
-      { "name": "Electronic_circuit", "count": 15 },
-      { "name": "Iron_gear_wheel", "count": 15 }
+      {
+        "name": "Advanced_circuit",
+        "count": 1
+      },
+      {
+        "name": "Fast_inserter",
+        "count": 1
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 15
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 15
+      }
     ],
     "product": [
       {
@@ -1015,15 +1563,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Stack_filter_inserter",
     "cname": "集装筛选机械臂",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Stack_inserter", "count": 1 },
-      { "name": "Electronic_circuit", "count": 5 }
+      {
+        "name": "Stack_inserter",
+        "count": 1
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      }
     ],
     "product": [
       {
@@ -1031,16 +1589,29 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Medium_electric_pole",
     "cname": "中型电线杆",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Copper_plate", "count": 2 },
-      { "name": "Iron_stick", "count": 4 },
-      { "name": "Steel_plate", "count": 2 }
+      {
+        "name": "Copper_plate",
+        "count": 2
+      },
+      {
+        "name": "Iron_stick",
+        "count": 4
+      },
+      {
+        "name": "Steel_plate",
+        "count": 2
+      }
     ],
     "product": [
       {
@@ -1048,16 +1619,29 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Big_electric_pole",
     "cname": "远程输电塔",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Copper_plate", "count": 5 },
-      { "name": "Iron_stick", "count": 8 },
-      { "name": "Steel_plate", "count": 5 }
+      {
+        "name": "Copper_plate",
+        "count": 5
+      },
+      {
+        "name": "Iron_stick",
+        "count": 8
+      },
+      {
+        "name": "Steel_plate",
+        "count": 5
+      }
     ],
     "product": [
       {
@@ -1065,16 +1649,29 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Substation",
     "cname": "广域配电站",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Copper_plate", "count": 5 },
-      { "name": "Advanced_circuit", "count": 5 },
-      { "name": "Steel_plate", "count": 10 }
+      {
+        "name": "Copper_plate",
+        "count": 5
+      },
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Steel_plate",
+        "count": 10
+      }
     ],
     "product": [
       {
@@ -1082,27 +1679,43 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Pipe",
     "cname": "管道",
     "cost_time": 0.5,
-    "recipe": [{ "name": "Iron_plate", "count": 1 }],
+    "recipe": [
+      {
+        "name": "Iron_plate",
+        "count": 1
+      }
+    ],
     "product": [
       {
         "name": "Pipe",
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Pipe_to_ground",
     "cname": "地下管道",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Iron_plate", "count": 5 },
+      {
+        "name": "Iron_plate",
+        "count": 5
+      },
       {
         "name": "Pipe",
         "count": 10
@@ -1114,14 +1727,21 @@
         "count": 2
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Pump",
     "cname": "管道泵",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Engine_unit", "count": 1 },
+      {
+        "name": "Engine_unit",
+        "count": 1
+      },
       {
         "name": "Pipe",
         "count": 1
@@ -1137,14 +1757,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Straight_rail",
     "cname": "铁轨",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Stone", "count": 1 },
+      {
+        "name": "Stone",
+        "count": 1
+      },
       {
         "name": "Iron_stick",
         "count": 1
@@ -1160,14 +1787,21 @@
         "count": 2
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Train_stop",
     "cname": "火车站",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 5 },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
       {
         "name": "Iron_plate",
         "count": 6
@@ -1187,14 +1821,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Rail_signal",
     "cname": "常规铁路信号",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 1 },
+      {
+        "name": "Electronic_circuit",
+        "count": 1
+      },
       {
         "name": "Iron_plate",
         "count": 5
@@ -1206,14 +1847,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Rail_chain_signal",
     "cname": "联锁铁路信号",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 1 },
+      {
+        "name": "Electronic_circuit",
+        "count": 1
+      },
       {
         "name": "Iron_plate",
         "count": 5
@@ -1225,14 +1873,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Locomotive",
     "cname": "内燃机车",
     "cost_time": 4,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 10 },
+      {
+        "name": "Electronic_circuit",
+        "count": 10
+      },
       {
         "name": "Engine_unit",
         "count": 20
@@ -1248,14 +1903,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Cargo_wagon",
     "cname": "货运车厢",
     "cost_time": 1,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 10 },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
       {
         "name": "Iron_plate",
         "count": 20
@@ -1271,14 +1933,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Fluid_wagon",
     "cname": "液罐车厢",
     "cost_time": 1.5,
     "recipe": [
-      { "name": "Iron_gear_wheel", "count": 10 },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
       {
         "name": "Pipe",
         "count": 8
@@ -1298,14 +1967,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Artillery_wagon",
     "cname": "重炮车厢",
     "cost_time": 4,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 20 },
+      {
+        "name": "Advanced_circuit",
+        "count": 20
+      },
       {
         "name": "Engine_unit",
         "count": 64
@@ -1329,14 +2005,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Logistic_robot",
     "cname": "物流机器人",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 2 },
+      {
+        "name": "Advanced_circuit",
+        "count": 2
+      },
       {
         "name": "Flying_robot_frame",
         "count": 1
@@ -1348,14 +2031,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Construction_robot",
     "cname": "建设机器人",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 2 },
+      {
+        "name": "Electronic_circuit",
+        "count": 2
+      },
       {
         "name": "Flying_robot_frame",
         "count": 1
@@ -1367,14 +2057,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Roboport",
     "cname": "机器人指令平台",
     "cost_time": 5,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 45 },
+      {
+        "name": "Advanced_circuit",
+        "count": 45
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 45
@@ -1390,27 +2087,43 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Stone_brick",
     "cname": "石砖",
     "cost_time": 3.2,
-    "recipe": [{ "name": "Stone", "count": 2 }],
+    "recipe": [
+      {
+        "name": "Stone",
+        "count": 2
+      }
+    ],
     "product": [
       {
         "name": "Stone_brick",
         "count": 1
       }
     ],
-    "produced_by": ["Stone_furnace", "Steel_furnace", "Electric_furnace"]
+    "produced_by": [
+      "Stone_furnace",
+      "Steel_furnace",
+      "Electric_furnace"
+    ]
   },
   {
     "name": "Concrete",
     "cname": "标准混凝土",
     "cost_time": 10,
     "recipe": [
-      { "name": "Iron_ore", "count": 1 },
+      {
+        "name": "Iron_ore",
+        "count": 1
+      },
       {
         "name": "Stone_brick",
         "count": 5
@@ -1426,19 +2139,28 @@
         "count": 10
       }
     ],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Refined_concrete",
     "cname": "钢筋混凝土",
     "cost_time": 15,
     "recipe": [
-      { "name": "Concrete", "count": 20 },
+      {
+        "name": "Concrete",
+        "count": 20
+      },
       {
         "name": "Iron_stick",
         "count": 8
       },
-      { "name": "Steel_plate", "count": 1 },
+      {
+        "name": "Steel_plate",
+        "count": 1
+      },
       {
         "name": "Water",
         "count": 100
@@ -1450,27 +2172,42 @@
         "count": 10
       }
     ],
-    "produced_by": ["Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Landfill",
     "cname": "填海材料",
     "cost_time": 0.5,
-    "recipe": [{ "name": "Stone", "count": 20 }],
+    "recipe": [
+      {
+        "name": "Stone",
+        "count": 20
+      }
+    ],
     "product": [
       {
         "name": "Landfill",
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Cliff_explosives",
     "cname": "悬崖炸药",
     "cost_time": 8,
     "recipe": [
-      { "name": "Empty_barrel", "count": 1 },
+      {
+        "name": "Empty_barrel",
+        "count": 1
+      },
       {
         "name": "Explosives",
         "count": 10
@@ -1486,14 +2223,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Repair_pack",
     "cname": "修理包",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 2 },
+      {
+        "name": "Electronic_circuit",
+        "count": 2
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 2
@@ -1505,14 +2249,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Steam_turbine",
     "cname": "汽轮机",
     "cost_time": 3,
     "recipe": [
-      { "name": "Copper_plate", "count": 50 },
+      {
+        "name": "Copper_plate",
+        "count": 50
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 50
@@ -1528,14 +2279,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Solar_panel",
     "cname": "太阳能板",
     "cost_time": 10,
     "recipe": [
-      { "name": "Copper_plate", "count": 5 },
+      {
+        "name": "Copper_plate",
+        "count": 5
+      },
       {
         "name": "Electronic_circuit",
         "count": 15
@@ -1551,14 +2309,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Accumulator",
     "cname": "蓄电器",
     "cost_time": 10,
     "recipe": [
-      { "name": "Battery", "count": 5 },
+      {
+        "name": "Battery",
+        "count": 5
+      },
       {
         "name": "Iron_plate",
         "count": 2
@@ -1570,14 +2335,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Heat_exchanger",
     "cname": "换热器",
     "cost_time": 3,
     "recipe": [
-      { "name": "Copper_plate", "count": 100 },
+      {
+        "name": "Copper_plate",
+        "count": 100
+      },
       {
         "name": "Pipe",
         "count": 10
@@ -1593,14 +2365,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Heat_pipe",
     "cname": "热管",
     "cost_time": 1,
     "recipe": [
-      { "name": "Copper_plate", "count": 20 },
+      {
+        "name": "Copper_plate",
+        "count": 20
+      },
       {
         "name": "Steel_plate",
         "count": 10
@@ -1612,14 +2391,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Electric_mining_drill",
     "cname": "电力采矿机",
     "cost_time": 2,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 2 },
+      {
+        "name": "Electronic_circuit",
+        "count": 2
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 5
@@ -1635,14 +2421,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Offshore_pump",
     "cname": "供水泵",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 2 },
+      {
+        "name": "Electronic_circuit",
+        "count": 2
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 1
@@ -1658,14 +2451,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Pumpjack",
     "cname": "抽油机",
     "cost_time": 5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 5 },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 10
@@ -1685,14 +2485,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Electric_furnace",
     "cname": "电炉",
     "cost_time": 5,
     "recipe": [
-      { "name": "Advanced_circuit", "count": 5 },
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
       {
         "name": "Stone_brick",
         "count": 10
@@ -1708,14 +2515,21 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Assembling_machine_1",
     "cname": "组装机1型",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Electronic_circuit", "count": 3 },
+      {
+        "name": "Electronic_circuit",
+        "count": 3
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 5
@@ -1731,15 +2545,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Assembling_machine_2",
     "cname": "组装机2型",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Assembling_machine_1", "count": 1 },
-      { "name": "Electronic_circuit", "count": 3 },
+      {
+        "name": "Assembling_machine_1",
+        "count": 1
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 3
+      },
       {
         "name": "Iron_gear_wheel",
         "count": 5
@@ -1755,15 +2579,25 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   },
   {
     "name": "Assembling_machine_3",
     "cname": "组装机3型",
     "cost_time": 0.5,
     "recipe": [
-      { "name": "Assembling_machine_2", "count": 2 },
-      { "name": "Speed_module", "count": 4 }
+      {
+        "name": "Assembling_machine_2",
+        "count": 2
+      },
+      {
+        "name": "Speed_module",
+        "count": 4
+      }
     ],
     "product": [
       {
@@ -1771,6 +2605,718 @@
         "count": 1
       }
     ],
-    "produced_by": ["Assembling_machine_1", "Assembling_machine_2", "Assembling_machine_3"]
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Oil_refinery",
+    "cname": "炼油厂",
+    "cost_time": 8,
+    "recipe": [
+      {
+        "name": "Electronic_circuit",
+        "count": 10
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
+      {
+        "name": "Pipe",
+        "count": 10
+      },
+      {
+        "name": "Steel_plate",
+        "count": 15
+      },
+      {
+        "name": "Stone_brick",
+        "count": 10
+      }
+    ],
+    "product": [
+      {
+        "name": "Oil_refinery",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Chemical_plant",
+    "cname": "化工厂",
+    "cost_time": 5,
+    "recipe": [
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 5
+      },
+      {
+        "name": "Pipe",
+        "count": 5
+      },
+      {
+        "name": "Steel_plate",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Chemical_plant",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Lab",
+    "cname": "研究中心",
+    "cost_time": 2,
+    "recipe": [
+      {
+        "name": "Electronic_circuit",
+        "count": 10
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
+      {
+        "name": "Transport_belt",
+        "count": 4
+      }
+    ],
+    "product": [
+      {
+        "name": "Lab",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Beacon",
+    "cname": "插件效果分享塔",
+    "cost_time": 15,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 20
+      },
+      {
+        "name": "Copper_cable",
+        "count": 10
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 20
+      },
+      {
+        "name": "Steel_plate",
+        "count": 10
+      }
+    ],
+    "product": [
+      {
+        "name": "Beacon",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Speed_module",
+    "cname": "速度插件1",
+    "cost_time": 15,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Speed_module",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Speed_module_2",
+    "cname": "速度插件2",
+    "cost_time": 30,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Speed_module",
+        "count": 4
+      }
+    ],
+    "product": [
+      {
+        "name": "Speed_module_2",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Speed_module_3",
+    "cname": "速度插件3",
+    "cost_time": 60,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Speed_module_2",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Speed_module_3",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Efficiency_module",
+    "cname": "节能插件1",
+    "cost_time": 15,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Efficiency_module",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Efficiency_module_2",
+    "cname": "节能插件2",
+    "cost_time": 30,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Efficiency_module",
+        "count": 4
+      }
+    ],
+    "product": [
+      {
+        "name": "Efficiency_module_2",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Efficiency_module_3",
+    "cname": "节能插件3",
+    "cost_time": 60,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Efficiency_module_2",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Efficiency_module_3",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Productivity_module",
+    "cname": "产能插件1",
+    "cost_time": 15,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Productivity_module",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Productivity_module_2",
+    "cname": "产能插件2",
+    "cost_time": 30,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Productivity_module",
+        "count": 4
+      }
+    ],
+    "product": [
+      {
+        "name": "Productivity_module_2",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Productivity_module_3",
+    "cname": "产能插件3",
+    "cost_time": 60,
+    "recipe": [
+      {
+        "name": "Advanced_circuit",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Productivity_module_2",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Productivity_module_3",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Firearm_magazine",
+    "cname": "标准弹匣",
+    "cost_time": 1,
+    "recipe": [
+      {
+        "name": "Iron_plate",
+        "count": 4
+      }
+    ],
+    "product": [
+      {
+        "name": "Firearm_magazine",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Piercing_rounds_magazine",
+    "cname": "穿甲弹匣",
+    "cost_time": 3,
+    "recipe": [
+      {
+        "name": "Copper_plate",
+        "count": 5
+      },
+      {
+        "name": "Firearm_magazine",
+        "count": 1
+      },
+      {
+        "name": "Steel_plate",
+        "count": 1
+      }
+    ],
+    "product": [
+      {
+        "name": "Piercing_rounds_magazine",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Uranium_rounds_magazine",
+    "cname": "贫铀弹匣",
+    "cost_time": 10,
+    "recipe": [
+      {
+        "name": "Piercing_rounds_magazine",
+        "count": 1
+      },
+      {
+        "name": "Uranium-238",
+        "count": 1
+      }
+    ],
+    "product": [
+      {
+        "name": "Uranium_rounds_magazine",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Grenade",
+    "cname": "标准手雷",
+    "cost_time": 8,
+    "recipe": [
+      {
+        "name": "Coal",
+        "count": 10
+      },
+      {
+        "name": "Iron_plate",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Grenade",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Cluster_grenade",
+    "cname": "集束手雷",
+    "cost_time": 8,
+    "recipe": [
+      {
+        "name": "Explosives",
+        "count": 5
+      },
+      {
+        "name": "Grenade",
+        "count": 7
+      },
+      {
+        "name": "Steel_plate",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Cluster_grenade",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Wall",
+    "cname": "墙壁",
+    "cost_time": 0.5,
+    "recipe": [
+      {
+        "name": "Stone_brick",
+        "count": 5
+      }
+    ],
+    "product": [
+      {
+        "name": "Wall",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Gate",
+    "cname": "闸门",
+    "cost_time": 0.5,
+    "recipe": [
+      {
+        "name": "Electronic_circuit",
+        "count": 2
+      },
+      {
+        "name": "Steel_plate",
+        "count": 2
+      },
+      {
+        "name": "Wall",
+        "count": 1
+      }
+    ],
+    "product": [
+      {
+        "name": "Gate",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Gun_turret",
+    "cname": "机枪炮塔",
+    "cost_time": 8,
+    "recipe": [
+      {
+        "name": "Copper_plate",
+        "count": 10
+      },
+      {
+        "name": "Iron_gear_wheel",
+        "count": 10
+      },
+      {
+        "name": "Iron_plate",
+        "count": 20
+      }
+    ],
+    "product": [
+      {
+        "name": "Gun_turret",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Laser_turret",
+    "cname": "激光炮塔",
+    "cost_time": 20,
+    "recipe": [
+      {
+        "name": "Battery",
+        "count": 12
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 20
+      },
+      {
+        "name": "Steel_plate",
+        "count": 20
+      }
+    ],
+    "product": [
+      {
+        "name": "Laser_turret",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Radar",
+    "cname": "雷达",
+    "cost_time": 0.5,
+    "recipe": [
+      {
+        "name": "Iron_gear_wheel",
+        "count": 5
+      },
+      {
+        "name": "Electronic_circuit",
+        "count": 5
+      },
+      {
+        "name": "Iron_plate",
+        "count": 10
+      }
+    ],
+    "product": [
+      {
+        "name": "Radar",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
+  },
+  {
+    "name": "Rocket_silo",
+    "cname": "火箭发射井",
+    "cost_time": 30,
+    "recipe": [
+      {
+        "name": "Concrete",
+        "count": 1000
+      },
+      {
+        "name": "Electric_engine_unit",
+        "count": 200
+      },
+      {
+        "name": "Pipe",
+        "count": 100
+      },
+      {
+        "name": "Processing_unit",
+        "count": 100
+      },
+      {
+        "name": "Steel_plate",
+        "count": 1000
+      }
+    ],
+    "product": [
+      {
+        "name": "Rocket_silo",
+        "count": 1
+      }
+    ],
+    "produced_by": [
+      "Assembling_machine_1",
+      "Assembling_machine_2",
+      "Assembling_machine_3"
+    ]
   }
 ]
