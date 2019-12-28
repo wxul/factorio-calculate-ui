@@ -12,7 +12,7 @@ const resJson = require(resolve(dataSrc, 'res.json'));
 const formulaJson = require(resolve(dataSrc, 'formula.json'));
 
 const prefix = `https://wiki.factorio.com/images`;
-const iconsPath = resolve(__dirname, '../src/assets/icons');
+const iconsPath = resolve(__dirname, '../public/icons');
 
 let iconsNames = uniq(resJson.map(r => r.name).concat(formulaJson.map(r => r.name))).map(n => `${n}.png`);
 
