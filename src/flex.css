@@ -1,0 +1,30 @@
+.flex {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+}
+
+.flex-row {
+  composes: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  composes: flex;
+  flex-direction: column;
+}
+
+.flex-acenter {
+  composes: flex;
+  align-items: center;
+}
+
+.flex-jcenter {
+  composes: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  composes: flex-acenter;
+  composes: flex-jcenter;
+}

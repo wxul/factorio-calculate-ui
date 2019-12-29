@@ -1,0 +1,45 @@
+.header {
+  composes: flex-row from '../../flex.css';
+  position: relative;
+  padding: 20px;
+  flex: 0 0 120px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-logo {
+  flex: 0 0 auto;
+}
+
+.header-title {
+  padding-bottom: 10px;
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.link-group {
+  composes: flex-row from '../../flex.css';
+  composes: flex-center from '../../flex.css';
+  position: absolute;
+  right: 20px;
+  bottom: -1px;
+}
+
+.link-item {
+  composes: flex-row from '../../flex.css';
+  composes: flex-center from '../../flex.css';
+  padding: 10px 20px;
+}
+
+.link-item-home {
+  composes: link-item;
+}
+
+.link-item-settings {
+  composes: link-item;
+}
+
+.link-active-item {
+  background-color: var(--bg-color-2);
+  border: 1px solid var(--border-color);
+  border-bottom: 0;
+}

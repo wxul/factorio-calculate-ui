@@ -1,0 +1,12 @@
+:root {
+  --bg-color-1: #333;
+  --bg-color-2: #2a2a2a;
+  --bg-color-3: #242324;
+
+  --border-color: #1f1f1f;
+  --hr-color: #4c4c4c;
+
+  --font-main-color: #c1c1c1;
+  --font-sub-color: #ffe6c0;
+  --font-active-color: #a87723;
+}
