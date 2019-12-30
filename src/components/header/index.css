@@ -28,14 +28,32 @@
   composes: flex-row from '../../flex.css';
   composes: flex-center from '../../flex.css';
   padding: 10px 20px;
+  border: 1px solid transparent;
+}
+
+.link-item::before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  background-size: 100% 100%;
 }
 
 .link-item-home {
   composes: link-item;
 }
 
+.link-item-home::before {
+  background-image: url(/icons/Beacon.png);
+}
+
 .link-item-settings {
   composes: link-item;
+}
+
+.link-item-settings::before {
+  background-image: url(/icons/Iron_gear_wheel.png);
 }
 
 .link-active-item {
